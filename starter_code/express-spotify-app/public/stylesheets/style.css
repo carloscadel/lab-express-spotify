@@ -69,6 +69,7 @@ li {
     overflow:hidden;
     background-color: rgb(77, 77, 77);
     color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .band-name {
     text-decoration: none;
@@ -80,6 +81,7 @@ li img {
     height: 250px;
     justify-content: start;
     justify-self: start;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 /* rgb(223, 112, 107) */
 .view-albums {
