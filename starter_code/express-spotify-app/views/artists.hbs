@@ -1,0 +1,11 @@
+<h1>Artists Webpage</h1>
+
+<ul>
+  {{#each artist}}
+    <li>
+      <img src="{{this.images.[0].url}}" alt="">
+      <span class="band-name">{{this.name}}</span>
+      <button type="submit" class="view-albums">View albums</button>
+    </li>
+  {{/each}}
+</ul>
